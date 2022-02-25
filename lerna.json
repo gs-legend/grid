@@ -1,0 +1,18 @@
+{
+  "packages": [
+    "community-modules/*",
+    "enterprise-modules/*",
+    "charts-packages/*",
+    "grid-packages/*",
+    "client"
+  ],
+  "command": {
+    "bootstrap": {
+      "npmClientArgs": [
+        "--no-package-lock",
+        "--force"
+      ]
+    }
+  },
+  "version": "27.0.1"
+}
